@@ -51,7 +51,9 @@ Explanation 2:
  Number of elements great
  */
 
-public class Solution {
+import java.util.ArrayList;
+
+public class ElementsWhichHaveAtLeastTwoGreaterElements {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         Integer max_1 = A.stream().mapToInt(value -> value).max().getAsInt();
         A.remove(max_1);
