@@ -1,6 +1,8 @@
+import java.util.PriorityQueue;
+
 public class MaximumArraySumAfterBnegations {
     public int solve(int[] A, int B) {
-        PriorityQueue < Integer > pq = new PriorityQueue();
+        PriorityQueue< Integer > pq = new PriorityQueue();
 
         // insert all elements into the queue
         for (int x: A) pq.offer(x);
