@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 Smaller and Greater
 You are given an Array A of size N.
@@ -27,7 +29,7 @@ Explanation:
 
 
 */
-public class Solution {
+public class SmallerAndGreater {
     public int solve(int[] A) {
         int N = A.length;      
         int min = Arrays.stream(A).min().getAsInt();

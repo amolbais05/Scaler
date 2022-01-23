@@ -47,7 +47,7 @@ Minimum of all odd numbers = 1
 ans = 100 - 1 = 99
 */
 
-public class Solution {
+public class MINIMUM_PICKS {
     public int solve(int[] A) {
         int even = Integer.MIN_VALUE;
         int odd = Integer.MAX_VALUE;

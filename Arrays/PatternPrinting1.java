@@ -59,7 +59,7 @@ Explanation 2:
                              1 2 3 4
  So we will return it as two-dimensional array.
 */
-public class Solution {
+public class PatternPrinting1 {
     public int[][] solve(int A) {
         int i, j ;
         int[][] output_1 = new int[A][];
