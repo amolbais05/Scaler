@@ -1,5 +1,5 @@
 public class CyclicPermutations {
-    public int solve(String A, String B) {
+    public static int solve(String A, String B) {
         int n=A.length();
         // append the same string so that
         // we can use sliding window to find the cyclic permutation
@@ -12,5 +12,8 @@ public class CyclicPermutations {
         }
 
         return count;
+    }
+    public static void main(String[] args) {
+        System.out.println(solve("ABA","ABA"));
     }
 }
