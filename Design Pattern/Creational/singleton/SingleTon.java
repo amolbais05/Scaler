@@ -1,3 +1,5 @@
+package singleton;
+
 public class SingleTon {
 
     private static SingleTon singleTon = null;
